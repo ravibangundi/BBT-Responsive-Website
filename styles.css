@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+
+body{
+    font-family: 'Montserrat';
+}
+
+.bgimg{
+    background-image: url('./Images/bodybg.jpg');
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 990px) {
+    .bgimg{
+        height: auto;
+    }
+  }
+
+.navbar-brand{
+    font-size: 2rem;
+    letter-spacing: 8px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    margin-left: 40px;
+} 
+
+#navbarNav{
+
+    letter-spacing: 3px;
+    margin-right: 20px;
+}
+
+ul li{
+    margin-right: 10px;
+}
+
+.heardset{
+    color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    padding-top: 300px;
+
+}
+
+.heardset h1 span{
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.heardset h1{
+    font-weight: 600;
+    font-size: 3rem;
+    font-family: 'Montserrat';
+    letter-spacing: 8px;
+}
+
+.heardset h4{
+    font-weight: 200;
+    font-style: italic;
+}
+
+/* Services */
+
+.ourservices{
+    padding:100px 0px 60px;
+
+}
+
+.rowsetting{
+    margin: 80px 0px !important;
+}
+
+.fa-solid{
+    color:black;
+    background-color: rgb(255, 255, 116);
+    padding: 40px;
+    border-radius: 20%;
+}
+
+
+/* Portfolio */
+
+.portfolio{
+    padding: 50px 0px 50px;
+}
+
+.portfolio h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.card{
+    margin-top: 40px;
+
+}
+
+
+/* OurTeam */
+
+.ourteam{
+    min-height: 700px;
+    padding: 100px 0px 60px;
+    width: 100%;
+}
+
+.ourteam h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.teamsetting{
+    margin-top: 50px !important;
+}
+
+figure img{
+
+    width: 40%;
+    border-radius: 20%;
+}   
+
+
+/* Footer */
+
+.footer{
+    color: rgb(224, 224, 224);
+    height: 50px;
+}
+.footer h6{
+    line-height: 50px;
+}
